@@ -48,15 +48,16 @@ void setup(void)
   delay(1000);
   Serial.println(F("Hello Teensy Single CAN Receiving Example With Objects."));
 
-  Can0.begin(1000000);  // pourquoi on met ce nombre là dedans ?
+  Can0.begin(1000000);  // Bit rate (1 MBit/s)
 
   Can0.attachObj(&exampleClass);
   exampleClass.attachGeneralHandler();
 
-  msg.ext = 0; // on sait pas ce que c'est
+  msg.ext = 0; // Identifiant en cas de filters setting extended
   msg.id = 0x123; // l'identifiant en héxadécimal
-  msg.len = 8; // sa longueur en ??
-  msg.buf[0] = 10; // les valeurs 
+  msg.len = 8; // taille des donnée transmise en octet (de 0 à 8 octet au maximum)
+ // Donnée transmise octet par octet 
+  msg.buf[0] = 10; 
   msg.buf[1] = 20;
   msg.buf[2] = 0;
   msg.buf[3] = 100;
