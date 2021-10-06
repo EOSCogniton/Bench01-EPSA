@@ -1,0 +1,13 @@
+﻿"Symbol";"Value";"Unit";
+"TraceParts.PartNumber";"90-20092018-042849";"";
+"REFERENCE";"23022-700";"";
+"TraceParts.PartTitle";"23022 Accouplement élastomère à griffes  moyeu à serr...";"";
+"TraceParts.InstanceId";"90-20092018-042849BM319N6W1M0GED55E0G0Z99LN";"";
+"DESIGN";"ACCOUPL. ÉLAST. GRIFFES AVEC MOYEU À SERR. RAD. TA.700 L=109 ALUMINIUM, COMP:...";"";
+"TraceParts.PartStatus";"Published";"";
+"TraceParts.PartStatusId";"";"";
+"SUPPLIER";"norelem";"";
+"TraceParts.PartVersion";"1.0.4";"";
+"TRACEPARTS";"TRACEPARTS";"";
+"TraceParts.PartLanguage";"fr";"";
+"TraceParts.ClassPath";"NORELEM:90-20092018-042849";"";
